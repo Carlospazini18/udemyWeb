@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/** configurando o menu **/
+
+.fundo {
+    background-image: url(images/fundo.png);
+    background-attachment: fixed;
+}
+
+div {
+    width: 888px;
+}
+
+.menu {
+    background-color: rgb(113, 199, 173);
+    height: 72px;
+    padding: 6px;
+}
+
+.link_menu {
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(51, 57, 59);
+    font-weight: 650;
+}
+
+/** configurando o texto **/
+
+.texto {
+    background-color:rgb(210, 240, 240);
+    text-align: justify;
+    padding: 6px;
+}
+
+.texto > h1 {
+    color: rgb(71, 81, 85);
+}
+
+/** configurando o rodapé**/
+
+.rodape {
+    width: 900px;
+}
+
+.texto_rodape {
+    font: bold 18px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+    margin-left: 32%;
+}
+
+/** específico de capanhas **/
+
+.img_campanha {
+    border: 10px solid rgb(113, 199, 173);
+    margin-left: 10%;
+}
