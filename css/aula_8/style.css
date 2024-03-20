@@ -1,0 +1,23 @@
+#principal {
+    width: 920px;
+    border: 1px solid red;
+    background-color: rgba(71, 86, 216, 0.178);
+}
+
+.noticia {
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px; 
+    margin: 7px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.foto {
+    width: 270px;
+    padding: 5px;
+    margin: 13px;
+    float: left;
+    background-color: white;
+}

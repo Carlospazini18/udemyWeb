@@ -5,33 +5,31 @@ body {
 /** configurando o menu **/
 
 .fundo {
-    background-image: url(images/fundo.png);
-    background-attachment: fixed;
+    background: #d2d2c1 url(images/fundo.png);
 }
 
 div {
-    width: 888px;
+    width: 870px;
 }
 
 .menu {
-    background-color: rgb(113, 199, 173);
-    height: 72px;
-    padding: 6px;
+    background-color: #c5c5c2;
+    padding: 15px;
 }
 
 .link_menu {
     text-decoration: none;
     font-size: 23px;
-    color: rgb(51, 57, 59);
+    color: #4b566a;
     font-weight: 650;
 }
 
 /** configurando o texto **/
 
 .texto {
-    background-color:rgb(210, 240, 240);
+    background-color: #e8e8d9;
     text-align: justify;
-    padding: 6px;
+    padding: 15px;
 }
 
 .texto > h1 {
@@ -42,12 +40,11 @@ div {
 
 .rodape {
     width: 900px;
+    text-align: center;
 }
 
 .texto_rodape {
     font: bold 18px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: fit-content;
-    margin-left: 32%;
 }
 
 /** específico de capanhas **/
