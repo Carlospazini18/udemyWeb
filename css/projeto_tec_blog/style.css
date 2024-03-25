@@ -12,6 +12,7 @@
 
 body {
     background-color: #e2e2e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /** estilizando o cabeçalho **/
@@ -57,7 +58,7 @@ main {
 }
 
 h2{
-    padding: 20px 0 10px;
+    padding: 15px 0 10px;
 }
 
 .clear {
@@ -101,4 +102,16 @@ p {
 }
 .item_cat > a:hover {
     text-decoration: underline;
+}
+#tx_h2 {
+    padding-bottom: 5px;
+}
+.item_2 {
+    color: #F2B705;
+}
+/** estilizando o rodpé **/
+footer {
+    background-color: #bababb;
+    text-align: center;
+    padding: 10px;
 }
