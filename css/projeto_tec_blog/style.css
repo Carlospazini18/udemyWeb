@@ -21,6 +21,9 @@ header {
     background-color: #F2B705;
     height: 130px;
 }
+h1 {
+    color: #4e4e4e;
+}
 h1 > span {
     color: white;
 }
@@ -58,14 +61,15 @@ main {
 }
 
 h2{
-    padding: 15px 0 10px;
+    padding: 15px 0px 5px ;
+    color: #F2B705;
 }
 
 .clear {
     clear: both;
 }
 .txt_lado {
-    float: left;
+    float: right;
 }
 
 .txt_lado > section {
@@ -104,9 +108,12 @@ p {
     text-decoration: underline;
 }
 #tx_h2 {
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 .item_2 {
+    color: #F2B705;
+}
+.a_post {
     color: #F2B705;
 }
 /** estilizando o rodpé **/
