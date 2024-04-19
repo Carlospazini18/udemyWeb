@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width:450px;
+    background-color: rgba(255, 255, 255, 0.295);
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    border-radius: 15px;
+    
+}
+
+form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 360px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+input[type="email"] {
+    background: url(../imagens/icone-usuario.png) no-repeat white;
+    border: none;
+    background-position: 10px;    
+}
+input[type="password"]{
+    background: url(../imagens/icone-cadeado.png) white 10px no-repeat;
+    border: none;
+}
+input[type="submit"] {
+    background-color: #cf881c;
+    border: 2px solid #F5A466;
+    height: 44px;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    background-image: linear-gradient(to bottom,#faa600, #f68a00);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #f5ab44fd;
+    background-image: linear-gradient(to bottom,#ffae0c, #ffa530);
+    transition: 0.3s;
+}
+img {
+    margin-top: -89px;
+}

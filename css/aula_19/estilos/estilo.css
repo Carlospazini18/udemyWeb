@@ -1,0 +1,23 @@
+table {
+    width: 600px;
+    border-collapse: ;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    font-size: 15px;
+    text-align: left;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    letter-spacing: 0.1em;
+}
+
+tr:hover {
+    background-color: #c3e3e58c;
+}
+
+.preco {
+    text-align: right;
+    width: 15%;
+}
