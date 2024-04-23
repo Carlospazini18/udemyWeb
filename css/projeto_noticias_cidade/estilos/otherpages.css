@@ -1,0 +1,84 @@
+#main_fotos {
+    background: url(../imagens/fundo-caixa.png);
+    width: 750px;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}   
+
+#title_box_ft {
+    background-color: #57579b;
+    width: 730px;
+    margin:  auto;
+    color: white;
+    padding: 3px;
+}
+
+#ft_not {
+    background-color: white;
+    width: 730px;
+    padding-top: 5px;
+    margin: 10px auto;
+    padding-top: 10px;
+}
+
+.center_img {
+    display: flex;
+    justify-content: center;
+}
+
+#main_fotos h3, #fotos_br h3 {
+    background-color: #b10333;
+    width: fit-content;
+    padding: 3px;
+    margin-bottom: 3px;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+#main_fotos p {
+    width: 700px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+/* fts br */
+
+#fotos_br {
+    background: url(../imagens/fundo-caixa.png);
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#title_box_ft_br {
+    background-color: #57579b;
+    width: 480px;
+    margin:  auto;
+    color: white;
+    padding: 3px;
+}
+
+#ft_not_br {
+    background-color: white;
+    width: 480px;
+    padding-top: 5px;
+    margin: 10px auto;
+    padding-top: 10px;
+
+}
+
+
+#ft_not_br img {
+    width: 440px;
+}
+
+
+#main_brasil {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin: 10px auto;
+
+}
