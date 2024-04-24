@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica, "trbuchet MS", sans-serif;
+}
+
+
+.conteiner_pai {
+    width: 95%;
+    min-width: 800px;
+    max-width: 1180px;
+}
+
+body {
+    background: url(../imagens/bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* configurando o header */
+
+header {
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#lateral_header {
+    background: url(../imagens/topo-imagem-lateral.png) left;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#conteudo_lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 10px;
+    color: #6e672c;
+}
+
+#reservar {
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid  #b5ab56;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px;
+    font-size: 0.7em;
+    line-height: 2.1em;
+    color: #8b8448;
+}
+
+#reservar input {
+    background-color: #a29750;
+    color: white;
+    font-size: 1em;
+    border: none;
+    padding:2px 10px;
+    cursor: pointer;
+}
+
+#layout_lateral {
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout_lateral ul {
+    list-style-type: none;
+}
+
+#layout_lateral ul a {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    width: fit-content;
+    color: #6e672c;
+    font-size: 1em;
+}
+
+#layout_lateral ul a:hover {
+    background-color: #fdf6be;
+}
+
+
+header h1 a {
+    color: rgba(255, 255, 255, 0);
+    background: url(../imagens/logo.png) no-repeat;
+    display: block;
+    height: 151px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#menu_ul {
+    width: 50%;
+    float: right;
+    background: url(../imagens/bg-area-lateral.png) top repeat-x;
+}
+
+#menu_ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+#menu_ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-bottom: 1px solid #f3efcb;
+    background: url(../imagens/ornamento.png) top right no-repeat;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#menu_ul li:hover {
+    background: url(../imagens/ornamento.png) top right no-repeat #f6f3d6; 
+}
+#menu_ul img {
+    width: 150px;
+    padding: 5px;
+}
+
+#texto {
+    width: 50%;
+    float: left;
+}
+
+#texto p, #texto h2 {
+    padding: 10px;
+}
+.clear { 
+    clear: both;
+}
+
+#main {
+    background: url(../imagens/bg-container.png) center;
+}
+
+section {
+     background: url(../imagens/bg-area-principal.png) top repeat-x;
+     padding-top: 10px;
+     font-size: 0.9em;
+}
+
+footer {
+    background-color: white;
+    color: #7d7640;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h2, h3{
+    color: #7d7640;
+    font-size: 1.2em;
+    padding: 0px;
+}
