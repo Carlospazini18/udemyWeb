@@ -1,0 +1,43 @@
+#conteiner {
+    background-color: #ccc;
+    height: 700px;
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#conteiner div {
+    border: 1px solid blue;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#green {
+    background-color: green;
+    order: 1;
+}
+
+#yellow {
+    background-color: yellow;
+    order: 4;
+    justify-self: flex-end;
+}
+
+#red {
+background-color: red;
+order: 3;
+}
+
+#orange {
+    background-color: orange;
+    order: 2;
+}

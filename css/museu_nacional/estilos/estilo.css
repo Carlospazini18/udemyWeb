@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+header, #principal, footer {
+    width: 1080px;
+    border: 1px solid blue;
+}
+
+/* configurando o fundo  */
+
+body {
+    background: url(../imagens/fundo.png) repeat-x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* configurando o header */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    padding: 0px 30px;
+    line-height: 85px;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+header ul a {
+    color: #af670a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul a:hover {
+    color: #af670a98;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+#color_title {
+    color: #af670a;
+}
+
+/* layout principal */
+
+
+#principal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+main {
+    width: 710px;
+    border: 1px solid blue;
+}
+
+aside {
+    background-color: #af670a;
+    width: 350px;
+
+}
+
+#postagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item_sec {
+    background-color: #af670a;
+    border: 1px solid yellow;
+
+    width: 50%;
+    box-sizing: border-box;
+}
