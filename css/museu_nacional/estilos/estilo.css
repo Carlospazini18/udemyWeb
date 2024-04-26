@@ -9,13 +9,16 @@ body, html {
 
 header, #principal, footer {
     width: 1080px;
-    border: 1px solid blue;
+}
+
+a:link, a:active, a:visited {
+    color: #af670a;
 }
 
 /* configurando o fundo  */
 
 body {
-    background: url(../imagens/fundo.png) repeat-x;
+    background: url(../imagens/fundo.png) repeat-x #f4f2ec;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +42,8 @@ header {
 header ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    font-size: 0.8em;
 
 }
 
@@ -55,6 +59,9 @@ header ul a:hover {
 
 header h1 {
     text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: lighter;
+    color: #fff;
 }
 
 #color_title {
@@ -72,13 +79,10 @@ header h1 {
 
 main {
     width: 710px;
-    border: 1px solid blue;
 }
 
 aside {
-    background-color: #af670a;
     width: 350px;
-
 }
 
 #postagens {
@@ -87,9 +91,164 @@ aside {
 }
 
 .item_sec {
-    background-color: #af670a;
-    border: 1px solid yellow;
-
     width: 50%;
     box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.center {
+    align-self: center;
+}
+
+.item_sec h3 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #227115;
+}
+.item_sec ul {
+    padding-left: 20px;
+}
+
+.item_sec ul, .item_sec a {
+    font-size: 0.9em;
+    color: #af670a;
+    text-decoration: none;
+}
+.item_sec a:hover {
+    text-decoration: underline;
+}
+.item_sec p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+
+/* configurando o aside */
+
+
+/*configurando o formulário */
+#form {
+    background-color: #cdc8b1;
+    font-size: 0.8em;
+    padding-top: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input[type="number"], input[type="date"] {
+    margin: 0px 5px;
+    font-size: 0.9em;
+    padding: 3px;
+}
+
+input[type="date"] {
+    width: 100px;
+}
+
+input[type="number"] {
+    width: 30px;
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+}
+
+legend{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #227115;
+    font-weight: 700;
+}
+
+#submit {
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    background-color: #9b9271;
+    border: none;
+}
+
+#submit:hover {
+    background-color: #7c755a;
+}
+
+
+/* configurando a galeria */
+
+#galeria {
+    background-color: #cdc8b162;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+#galeria a {
+    background: url("../imagens/fundo-foto.png") ;
+    display: block;
+    width: 126px;
+    height: 136px;
+    position: relative;
+}
+
+#galeria a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#galeria h3 {
+    padding-top: 20px;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: #227115;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px
+}
+
+
+/* configurando o footer */
+
+footer {
+    display: flex;
+    background: url(../imagens/fundo-rodape.png) no-repeat top center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
 }
